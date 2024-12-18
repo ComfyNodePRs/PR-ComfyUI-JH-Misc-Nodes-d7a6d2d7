@@ -17,7 +17,7 @@ Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I mig
 
     ```
     cd ComfyUI/custom_nodes
-    git clone https://github.com/jefferyharrell/ComfyUI_JH_Misc_Nodes.git
+    git clone https://github.com/ComfyUI-JH/ComfyUI_JH_Misc_Nodes.git
     ```
 
 3. Install the required Python packages. If you're using `venv` and `pip` that looks like this:
