@@ -3,6 +3,7 @@
 
 # JH Misc. Nodes
 
+![GitHub License](https://img.shields.io/github/license/ComfyUI-JH/ComfyUI_JH_Misc_Nodes)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/jefferyharrell/ComfyUI_JH_Misc_Nodes/ci.yml)
 
 Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I might as well share.
