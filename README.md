@@ -32,6 +32,7 @@ Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I mig
     If you're using [Poetry](https://python-poetry.org/), then it's just
 
     ```
+    cd ComfyUI_JH_Misc_Nodes
     poetry install
     ```
 
