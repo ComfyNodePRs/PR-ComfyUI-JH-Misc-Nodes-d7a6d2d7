@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "comfyui-jh-misc-nodes"
+version = "0.0.0"
+description = "Miscellaneous custom nodes for ComfyUI"
+authors = ["Jeffery Harrell <jefferyharrell@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "A", "ANN", "RUF"]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+docstring-code-format = true
