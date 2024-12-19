@@ -42,4 +42,4 @@ Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I mig
 
 A node with a text input and a text widget. Any text typed into the widget will be stripped of excess whitespace and concatenated onto the end of the input text. Useful for breaking a prompt into pieces which can be edited independently.
 
-<img width="880" alt="image" src="https://github.com/user-attachments/assets/0c0c26e3-e2f0-4960-9182-e56e50708c0d" />
+<img width="1391" alt="image" src="https://github.com/user-attachments/assets/77b0b3db-63da-4687-9029-59554a0fb0ac" />
