@@ -1,6 +1,6 @@
 import pytest
 
-from ..comfyui_jh_misc_nodes.jh_daisy_chainable_string_constant_node import (
+from comfyui_jh_misc_nodes.jh_daisy_chainable_string_constant_node import (
     JHDaisyChainableStringConstantNode,
 )
 
