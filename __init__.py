@@ -1,9 +1,8 @@
-# Add the directory containing this file to the Python module search path
 import os
 import sys
 
+# Add the directory containing this file to the Python module search path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
 
 from comfyui_jh_misc_nodes.jh_daisy_chainable_string_constant_node import (
     JHDaisyChainableStringConstantNode,
