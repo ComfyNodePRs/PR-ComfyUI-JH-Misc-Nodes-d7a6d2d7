@@ -35,7 +35,9 @@ class JHDaisyChainableStringConstantNode:
     EXPERIMENTAL = True
 
     def execute(self, text: str, input_text: str = "") -> tuple[str]:
-        text = re.sub(r"\n+", " ", text).strip()
+        text = re.sub(r"\n+", " ", text)  # Replace newlines with spaces
+        text = re.sub(r"\s+", " ", text)  # Replace multiple spaces with a single space
+        text = text.strip()  # Remove leading and trailing spaces
         if input_text is not None:
             text = f"{input_text} {text}".strip()
 
