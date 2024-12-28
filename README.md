@@ -40,6 +40,17 @@ Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I mig
 
 ## Daisy-Chainable String Constant
 
+<div align="center">
+    <img width="1391" alt="image" src="https://github.com/user-attachments/assets/77b0b3db-63da-4687-9029-59554a0fb0ac" />
+</div>
+
 A node with a text input and a text widget. Any text typed into the widget will be stripped of excess whitespace and concatenated onto the end of the input text. Useful for breaking a prompt into pieces which can be edited independently.
 
-<img width="1391" alt="image" src="https://github.com/user-attachments/assets/77b0b3db-63da-4687-9029-59554a0fb0ac" />
+## Preview Image
+
+<div align="center">
+    <img width="450" alt="image" src="https://github.com/user-attachments/assets/a1a5cdc8-20ee-4f0f-9e00-b97e5ce7cad0" />
+</div>
+
+Takes an image or batch of images as an input, displays a preview of them, then passes them along to the output.
+
