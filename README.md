@@ -1,11 +1,29 @@
-![image](https://github.com/user-attachments/assets/90e7c8f5-ef7c-41ab-a676-85f0b77d9b55)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/90e7c8f5-ef7c-41ab-a676-85f0b77d9b55" />
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/github/license/ComfyUI-JH/ComfyUI-JH-Misc-Nodes">
+    &emsp;
+    <img src="https://img.shields.io/github/actions/workflow/status/ComfyUI-JH/ComfyUI-JH-Misc-Nodes/ci.yml?label=ci">
+    &emsp;
+    <img src="https://img.shields.io/github/last-commit/ComfyUI-JH/ComfyUI-JH-Misc-Nodes/main">
+    &emsp;
+    <img src="https://img.shields.io/github/issues/ComfyUI-JH/ComfyUI-JH-Misc-Nodes">
+    &emsp;
+    <img src="https://img.shields.io/github/issues-pr/ComfyUI-JH/ComfyUI-JH-Misc-Nodes">
+</div>
+
+<div align="center">
+
+---
+[**Getting Started**](#getting-started) | [**Nodes**](#nodes) | [**Credits**](#credits)
+---
+
+</div>
 
 
 # JH Misc. Nodes
-
-![GitHub License](https://img.shields.io/github/license/ComfyUI-JH/ComfyUI_JH_Misc_Nodes)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/jefferyharrell/ComfyUI_JH_Misc_Nodes/ci.yml)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ComfyUI-JH/ComfyUI_JH_Misc_Nodes/main)
 
 Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I might as well share.
 
@@ -19,20 +37,20 @@ Miscellaneous custom nodes for ComfyUI that I made for my own use. Figured I mig
 
     ```
     cd ComfyUI/custom_nodes
-    git clone https://github.com/ComfyUI-JH/ComfyUI_JH_Misc_Nodes.git
+    git clone https://github.com/ComfyUI-JH/ComfyUI-JH-Misc-Nodes.git
     ```
 
 3. Install the required Python packages. If you're using `venv` and `pip` that looks like this:
 
     ```
-    cd ComfyUI_JH_Misc_Nodes
+    cd ComfyUI-JH-Misc-Nodes
     pip install -r requirements.txt
     ```
 
     If you're using [Poetry](https://python-poetry.org/), then it's just
 
     ```
-    cd ComfyUI_JH_Misc_Nodes
+    cd ComfyUI-JH-Misc-Nodes
     poetry install
     ```
 
